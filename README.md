@@ -1,1 +1,31 @@
 # strudel-trance
+===================================================================
+# Strudel Trance Project
+
+## 🇵🇱 Instrukcja (PL)
+
+### KROK 0: JAK SKOPIOWAĆ I WKLEIĆ FOLDER Z SAMPLAMI Z PULPITU (NAJSZYBSZY SPOSÓB)
+Jeśli otwierasz Strudla po przerwie i chcesz szybko dodać swoje lokalne pliki:
+
+1. Otwórz na komputerze folder, w którym trzymasz swoje sample (np. wokal).
+2. Zaznacz cały ten folder myszką (lub wejdź do środka i zaznacz wszystkie pliki wokal_0, wokal_1 za pomocą Ctrl + A).
+3. Przeciągnij zaznaczony folder/pliki lewym przyciskiem myszy (Drag & Drop) i upuść je bezpośrednio na dowolne miejsce w oknie przeglądarki ze Strudlem.
+4. Strudel na dole ekranu pokaże komunikat, że pomyślnie załadował Twoje próbki dźwiękowe.
+
+Teraz możesz od razu wcisnąć [Ctrl + Enter] i sekcja 5 z wokalem zacznie pięknie grać!
+
+### KROK 1: ALTERNATYWA - AUTOMATYCZNE ŁADOWANIE Z SIECI (BEZ PRZECIĄGANIA)
+Jeśli w przyszłości nie będziesz chciał przeciągać folderu ręcznie za każdym razem:
+
+1. Wrzuć swoje sample do sieci, aby były dostępne pod bezpośrednim linkiem URL (np. na GitHub Pages, Vercel lub własny serwer). Link musi kończyć się rozszerzeniem pliku (np. .wav lub .mp3).
+2. Skopiuj poniższy blok kodu i wklej go na sam początek swojego pliku w Strudlu (przed Sekcją 1). Podmień przykładowe adresy URL na rzeczywiste linki do Twoich plików:
+
+```javascript
+samples({
+  wokal: [
+    '[https://twoj-serwer.pl/sample/wokal_0.wav](https://twoj-serwer.pl/sample/wokal_0.wav)', // n("0")
+    '[https://twoj-serwer.pl/sample/wokal_1.wav](https://twoj-serwer.pl/sample/wokal_1.wav)', // n("1")
+    '[https://twoj-serwer.pl/sample/wokal_2.wav](https://twoj-serwer.pl/sample/wokal_2.wav)', // n("2")
+    '[https://twoj-serwer.pl/sample/wokal_3.wav](https://twoj-serwer.pl/sample/wokal_3.wav)'  // n("3")
+  ]
+});..
