@@ -2,7 +2,7 @@
 
 
 // =================================================================
-// DANIEL'S TRANCE - TRIPLE WORKING SCOPE EDITION (FULL KOMEN
+// DANIEL'S TRANCE - TRIPLE WORKING SCOPE EDITION (FULL KOME
 // =================================================================
 
 // 1. BEAT & RYTM (Fundament perkusyjny: kick, główne hi-haty, akcenty i clap)
