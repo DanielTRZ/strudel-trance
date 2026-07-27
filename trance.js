@@ -2,7 +2,6 @@
 // DANIEL'S TRANCE - TRIPLE WORKING SCOPE EDITION 
 // =================================================================
 
-
 // 1. BEAT & RYTM (Fundament perkusyjny: kick, główne hi-haty, akcenty i clap)
 $: stack(
   s("kick*4"),  
